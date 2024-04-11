@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSADotNetCore.ConsoleApp", "OSADotNetCore.ConsoleApp\OSADotNetCore.ConsoleApp.csproj", "{54847F8D-F1C4-4099-B470-68D4FA828CCB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{DC0D380A-2CFD-48EF-8FDC-3CA79931E43B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
