@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSADotNetCore.ConsoleApp", "OSADotNetCore.ConsoleApp\OSADotNetCore.ConsoleApp.csproj", "{54847F8D-F1C4-4099-B470-68D4FA828CCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OSADotNetCore.ConsoleApp", "OSADotNetCore.ConsoleApp\OSADotNetCore.ConsoleApp.csproj", "{54847F8D-F1C4-4099-B470-68D4FA828CCB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{DC0D380A-2CFD-48EF-8FDC-3CA79931E43B}"
+	ProjectSection(SolutionItems) = preProject
+		Note.md = Note.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSADotNetCore.RestApi", "OSADotNetCore.RestApi\OSADotNetCore.RestApi.csproj", "{08D81707-1E2E-4BA4-A98F-21B66F6DE16E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +22,10 @@ Global
 		{54847F8D-F1C4-4099-B470-68D4FA828CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54847F8D-F1C4-4099-B470-68D4FA828CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54847F8D-F1C4-4099-B470-68D4FA828CCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08D81707-1E2E-4BA4-A98F-21B66F6DE16E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08D81707-1E2E-4BA4-A98F-21B66F6DE16E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08D81707-1E2E-4BA4-A98F-21B66F6DE16E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08D81707-1E2E-4BA4-A98F-21B66F6DE16E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

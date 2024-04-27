@@ -2,7 +2,7 @@
 using System.Data;
 using System.Text;
 
-namespace OSADotNetCore.ConsoleApp
+namespace OSADotNetCore.ConsoleApp.AdoDotNetExamples
 {
     internal class AdoDotNetExample
     {
