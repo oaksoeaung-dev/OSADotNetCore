@@ -10,7 +10,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{
 		Note.md = Note.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSADotNetCore.RestApi", "OSADotNetCore.RestApi\OSADotNetCore.RestApi.csproj", "{08D81707-1E2E-4BA4-A98F-21B66F6DE16E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OSADotNetCore.RestApi", "OSADotNetCore.RestApi\OSADotNetCore.RestApi.csproj", "{08D81707-1E2E-4BA4-A98F-21B66F6DE16E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSADotNetCore.Shared", "OSADotNetCore.Shared\OSADotNetCore.Shared.csproj", "{A2876EC6-6DBA-4E96-9BDD-3E1BAA4EC318}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,10 @@ Global
 		{08D81707-1E2E-4BA4-A98F-21B66F6DE16E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08D81707-1E2E-4BA4-A98F-21B66F6DE16E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08D81707-1E2E-4BA4-A98F-21B66F6DE16E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2876EC6-6DBA-4E96-9BDD-3E1BAA4EC318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2876EC6-6DBA-4E96-9BDD-3E1BAA4EC318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2876EC6-6DBA-4E96-9BDD-3E1BAA4EC318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2876EC6-6DBA-4E96-9BDD-3E1BAA4EC318}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
