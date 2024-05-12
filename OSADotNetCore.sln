@@ -12,7 +12,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OSADotNetCore.RestApi", "OSADotNetCore.RestApi\OSADotNetCore.RestApi.csproj", "{08D81707-1E2E-4BA4-A98F-21B66F6DE16E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSADotNetCore.Shared", "OSADotNetCore.Shared\OSADotNetCore.Shared.csproj", "{A2876EC6-6DBA-4E96-9BDD-3E1BAA4EC318}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OSADotNetCore.Shared", "OSADotNetCore.Shared\OSADotNetCore.Shared.csproj", "{A2876EC6-6DBA-4E96-9BDD-3E1BAA4EC318}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSADotNetCore.RestApiWithNLayer", "OSADotNetCore.RestApiWithNLayer\OSADotNetCore.RestApiWithNLayer.csproj", "{27BE82D6-9A46-44FA-863C-77BF9A2DE1E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSADotNetCore.ConsoleAppHttpClient", "OSADotNetCore.ConsoleAppHttpClient\OSADotNetCore.ConsoleAppHttpClient.csproj", "{7B92F3E6-D594-4710-BC3F-C0F38503515D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +36,14 @@ Global
 		{A2876EC6-6DBA-4E96-9BDD-3E1BAA4EC318}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2876EC6-6DBA-4E96-9BDD-3E1BAA4EC318}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2876EC6-6DBA-4E96-9BDD-3E1BAA4EC318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27BE82D6-9A46-44FA-863C-77BF9A2DE1E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27BE82D6-9A46-44FA-863C-77BF9A2DE1E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27BE82D6-9A46-44FA-863C-77BF9A2DE1E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27BE82D6-9A46-44FA-863C-77BF9A2DE1E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B92F3E6-D594-4710-BC3F-C0F38503515D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B92F3E6-D594-4710-BC3F-C0F38503515D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B92F3E6-D594-4710-BC3F-C0F38503515D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B92F3E6-D594-4710-BC3F-C0F38503515D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
